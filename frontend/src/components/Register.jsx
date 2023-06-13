@@ -13,9 +13,7 @@ function Login() {
 
   const navigate = useNavigate();
   const dispatch = useDispatch();
-  const { user, isLoading, isSuccess, isError, message } = useSelector(
-    (state) => state.auth
-  );
+  const { user, isLoading } = useSelector((state) => state.auth);
 
   useEffect(() => {
     if (user) {
