@@ -1,0 +1,48 @@
+.hero-container {
+  width: 60%;
+  height: 40vh;
+  margin: auto;
+  margin-top: 75px;
+  background-color: azure;
+  border: 1px solid aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.hero-paragraph {
+  text-align: center;
+  line-height: 23spx;
+  padding: 50px;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 175px;
+}
+
+.hero-signin {
+  background-color: blueviolet;
+  color: white;
+  padding: 10px;
+  white-space: nowrap;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.hero-signup {
+  background-color: gray;
+  color: white;
+  padding: 10px;
+  border-radius: 7px;
+  white-space: nowrap;
+  cursor: pointer;
+}
